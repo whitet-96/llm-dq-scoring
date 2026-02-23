@@ -1,0 +1,41 @@
+# Core data
+pandas>=2.0.0
+polars>=0.20.0
+pyarrow>=14.0.0
+
+# HuggingFace datasets
+datasets>=2.16.0
+huggingface-hub>=0.20.0
+
+# Pipeline orchestration
+prefect>=2.14.0
+
+# Quality scoring — syntax & security
+radon>=6.0.0          # cyclomatic complexity
+bandit>=1.7.0         # security static analysis
+detect-secrets>=1.4.0 # hardcoded credential detection
+
+# Near-deduplication
+datasketch>=1.6.0
+
+# LLM scoring
+anthropic>=0.20.0
+
+# Storage
+duckdb>=0.9.0
+python-dotenv>=1.0.0
+
+# CLI utilities
+tqdm>=4.66.0
+rich>=13.0.0
+
+# Dashboard
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+ruff>=0.1.0
