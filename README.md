@@ -28,7 +28,7 @@ Raw Sources          Transform            Quality Scoring            Output
 The Stack v1    →    Deduplication   →    Syntactic (35%)       →    JSONL
 CodeSearchNet   →    AST Validation  →    Documentation (25%)   →    Parquet
 HumanEval       →    Schema Norm.    →    Security (20%)        →    Dashboard
-                                         LLM Score (20%)            Data Card
+                                          LLM Score (20%)            Data Card
 ```
 
 ---
